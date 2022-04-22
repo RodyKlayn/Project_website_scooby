@@ -48,7 +48,8 @@ header {
 
 @media (max-width: 980px) {
     p {
-        font-size: 40px;
+        font-size: 70px;
+        padding: 15px;
     }
     img {
         width:100%;
