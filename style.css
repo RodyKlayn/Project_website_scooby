@@ -2,7 +2,7 @@ h1 {
     font-family: monospace;
     color: #FFFFFF;
     font-size: 50px;
-    padding: 20px;
+    padding: 22px;
     margin: 0px;
     border: 10px;
     display: flex;
@@ -22,7 +22,7 @@ p {
     margin-left: 0px;
 }
 div {
-    background-color: #DCDCDC;
+    background-color: #0000;
     padding: 2%;
     margin: 0%;
 }
@@ -42,5 +42,26 @@ header {
     background-color: #1C1C1C;
 }
 #sobre {
+    font-size: 15px;
     background-color: #1C1C1C;
+}
+
+@media (max-width: 800px) {
+    p {
+        font-size: 40px;
+    }
+    img {
+        width:100%;
+        align-items: center;
+    }
+    .container {
+        width: 100%;
+        display: contents;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    div {
+        padding: 10% 5% 3% 5%;
+    }
 }
