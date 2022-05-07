@@ -14,23 +14,22 @@ h1 {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    margin: 20px 20px 20px 25px;
+    font-size: 36px;
     color: #1c1c1c;
-    grid-area: content2;
+    margin: 0px 0px 0px 10px;
 }
 
-.container {
-    display: grid;
-    margin: 50px 50px 10px 50px;
+<!--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 50px 200px 10px 200px;
     background-color: #fff;
     border-radius: 20px;
-    align-items: center;
-    grid-template-areas: 
-    "content content2 content3 content3 content3"
-    "content content3 content3 content3";
 }
-
+-->
 body {
     margin: 0px;
     background-color: #DCDCDC;
@@ -38,41 +37,50 @@ body {
 
 #content {
     border-radius: 7%;
-    grid-area: content;
-}
-
-a {
-    display: flex;
 }
 
 p {
-    display: flex;
     font-family: sans-serif;
     font-size: 18px;
     justify-content: flex-start;
     margin: 10px;
 }
 
-.container-info {
+.info {
     background-color: #fff;
-    margin: 0px 70px 0px 70px;
+    margin: 0px 16% 0px 16%;
     padding: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
-.info-birthday {
-    grid-area: content3;
+.container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5% 14% 0.5% 14%;
 }
 
-.info-father {
-    grid-area: content3;
+.social-media {
+    display: flex;
+    padding: 0px 0px 0px 1px;
 }
 
-.socia-media1 {
-    grid-area: content3;
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 15px 0% 0% 0%;
 }
 
-.social-media2 {
-    grid-area: content3;
+.info2 {
+    margin: 6% 0px 0px 15px;
+}
+
+.informarion {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5% 20% 0% 1.5%;
 }
