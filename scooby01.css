@@ -5,8 +5,8 @@ header {
 h1 {
     font-family: monospace;
     color: #fff;
-    font-size: 50px;
-    padding: 25px 20px 25px 20px;
+    font-size: 36px;
+    padding: 16px 20px 16px 20px;
     margin: 0px;
     display: flex;
     justify-content: center;
@@ -132,5 +132,9 @@ li {
         margin: 0px 40px 10px 40px;
         text-align: justify;
         padding: 20px;
+    }
+
+    #content {
+        width: auto;
     }
 }
