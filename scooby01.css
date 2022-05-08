@@ -19,23 +19,13 @@ h2 {
     margin: 0px 0px 0px 10px;
 }
 
-<!--container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 50px 200px 10px 200px;
-    background-color: #fff;
-    border-radius: 20px;
-}
--->
 body {
     margin: 0px;
     background-color: #DCDCDC;
 }
 
 #content {
+    width: 350px;
     border-radius: 7%;
 }
 
@@ -48,10 +38,11 @@ p {
 
 .info {
     background-color: #fff;
-    margin: 0px 16% 0px 16%;
-    padding: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    margin: 0px 36.5% 0px 16%;
+    padding: 20px 30px 20px 30px; 
+    border-radius: 20px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
 }
 
 .container2 {
@@ -59,28 +50,87 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #fff;
-    border-radius: 20px;
-    margin: 5% 14% 0.5% 14%;
+    border-radius: 25px;
+    margin: 60px 35% 10px 14%;
 }
 
 .social-media {
     display: flex;
-    padding: 0px 0px 0px 1px;
+    padding: 76px 0px 0px 0px;
 }
 
 .social {
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    padding: 15px 0% 0% 0%;
+    margin: 55px 0px 0px 22px;
+    padding: 0px 0px 0px 8px;
 }
 
 .info2 {
-    margin: 6% 0px 0px 15px;
+    margin: 35px 0px 0px 15px;
 }
 
 .informarion {
     display: flex;
     flex-direction: column;
-    margin: 1.5% 20% 0% 1.5%;
+    flex-wrap: wrap;
+    margin: 25px 30px 0% 15px;
+}
+
+#opensea {
+    padding: 8px 8px 8px 8px;
+    width: 32px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0px 3px 0px 12px;
+}
+
+#youtube {
+    width: 36px;
+    padding: 6px 6px 6px 6px;
+    border-radius: 10px;
+    margin: 0px 0px 0px 3px;
+}
+
+.organi {
+    margin: 0px 0px 0px 20px;
+}
+
+ul {
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+}
+
+li {
+    margin: 0px 0px 10px 0px;
+    font-family: 'Courier Prime', monospace;
+}
+
+@media only screen and (max-width: 768px) {
+    .container2 {
+        margin: 50px 40px 10px 40px;
+    }
+
+    .informarion {
+        margin: 20px 20px 20px 5px;
+        padding: 0px 0px 10px 10px;
+    }
+
+    .organi {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .social {
+        margin: 8px;
+    }
+
+    #opensea {
+        margin: 0px;
+    }
+
+    .info {
+        margin: 0px 40px 10px 40px;
+        text-align: justify;
+        padding: 20px;
+    }
 }

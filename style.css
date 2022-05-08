@@ -59,9 +59,14 @@ footer {
     margin-bottom: 0;
 }
 
+.text-subline {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 @media only screen and (max-width: 600px) {
     .content {
-        width:400px;
+        width: 370px;
         display: flex;
     }
     .container {
