@@ -21,7 +21,7 @@ h2 {
 
 body {
     margin: 0px;
-    background-color: #DCDCDC;
+    background-color: #dcdcdc;
 }
 
 #content {
@@ -39,7 +39,7 @@ p {
 .info {
     background-color: #fff;
     margin: 0px 36.5% 0px 16%;
-    padding: 20px 30px 20px 30px; 
+    padding: 20px 30px 20px 30px;
     border-radius: 20px;
     font-family: 'Courier Prime', monospace;
     font-size: 18px;
