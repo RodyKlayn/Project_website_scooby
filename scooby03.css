@@ -87,7 +87,7 @@ p {
 
 #youtube {
     width: 36px;
-    padding: 6px 6px 6px 6px;
+    padding: 6px;
     margin: 0px 0px 0px 3px;
 }
 
@@ -116,7 +116,7 @@ li {
     }
 
     .organi {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
     }
 
     .social {
