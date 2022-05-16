@@ -1,25 +1,33 @@
+html {
+    background-color: #DCDCDC;
+}
+
+header {
+    background-color: #1C1C1C;
+}
+
 h1 {
     font-family: monospace;
-    color: #FFFFFF;
+    color: #fff;
     font-size: 36px;
     padding: 16px 20px 16px 20px;
     margin: 0px;
     display: flex;
     justify-content: center;
 }
-.text-subline {
-    font-size: 24px;
-    font-family: monospace, sans-serif;
-    text-align: center;
-    background-color: #1C1C1C;
-    color: #F5F5F5;
-    margin: 6px 0px 30px 0px;
-    border-radius: 20px;
-    padding: 12px 0px 12px 0px;
+
+#link-pagina {
+    text-decoration: none;
 }
+
+body {
+    margin: 0px;
+}
+
 div {
     padding: 2%;
 }
+
 .container {
     padding-top: 50px;
     display: flex;
@@ -30,12 +38,24 @@ div {
 img {
     border-radius: 7%;
 }
-html {
-    background-color: #DCDCDC;
+
+.content {
+    width: 400px;
+    align-items: center;
+    display: flex;
 }
-header {
+
+.text-subline {
+    font-size: 24px;
+    font-family: monospace, sans-serif;
+    text-align: center;
     background-color: #1C1C1C;
+    color: #F5F5F5;
+    margin: 6px 0px 30px 0px;
+    border-radius: 20px;
+    padding: 12px 0px 12px 0px;
 }
+
 #sobre {
     font-size: 18px;
     background-color: #1C1C1C;
@@ -43,20 +63,10 @@ header {
     padding: 15px 15px 15px 15%;
     margin: 0px;
 }
-.content {
-    width: 400px;
-    align-items: center;
-    display: flex;
-}
-
-body {
-    margin: 0px;
-}
 
 footer {
     margin-bottom: 0px;
 }
-
 
 @media only screen and (max-width: 768px) {
     .content {

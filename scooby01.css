@@ -12,6 +12,10 @@ h1 {
     justify-content: center;
 }
 
+#link-pagina {
+    text-decoration: none;
+}
+
 body {
     margin: 0px;
     background-color: #DCDCDC;
