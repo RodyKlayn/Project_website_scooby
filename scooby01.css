@@ -33,6 +33,7 @@ body {
 #content-image {
     width: 350px;
     border-radius: 7%;
+    transition: 0.5s ease;
 }
 
 .organization {
@@ -102,6 +103,10 @@ p {
 
 .riscar-nome {
     text-decoration: line-through;
+}
+
+#content-image:hover {
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 768px) {

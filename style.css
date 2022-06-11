@@ -25,7 +25,7 @@ body {
 }
 
 div {
-    padding: 2%;
+    padding: 40px;
 }
 
 .container {
@@ -40,6 +40,7 @@ img {
 }
 
 .content {
+    transition: 0.5s ease;
     width: 400px;
     align-items: center;
     display: flex;
@@ -70,6 +71,10 @@ img {
 
 footer {
     margin-bottom: 0px;
+}
+
+.content:hover {
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 768px) {
