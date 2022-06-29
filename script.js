@@ -1,1 +1,1 @@
-var scoobyVerse;
+const SCOOBY = "Au au.";
