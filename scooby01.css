@@ -116,6 +116,7 @@ p {
     
     #content-image {
         width: 335px;
+        transition: 0;
     }
     
     .organization {
@@ -141,4 +142,7 @@ p {
         padding: 20px;
     }
 
+    #content-image:hover {
+        transform: scale(1)
+    }
 }

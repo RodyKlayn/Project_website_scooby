@@ -81,8 +81,13 @@ footer {
     .content {
         width: 350px;
         display: flex;
+        transition: 0;
     }
     .container {
         display: flex;
+    }
+
+    .content:hover {
+        transform: scale(1);
     }
 }
