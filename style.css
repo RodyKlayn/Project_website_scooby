@@ -44,6 +44,8 @@ img {
     width: 400px;
     align-items: center;
     display: flex;
+    position: relative;
+    border-radius: 2rem;
 }
 
 .text-subline {
@@ -57,9 +59,6 @@ img {
     padding: 12px 0px 12px 0px;
 }
 
-#riscar-nome {
-    text-decoration: line-through;
-}
 
 #sobre {
     font-size: 18px;
@@ -77,9 +76,159 @@ footer {
     transform: scale(1.2);
 }
 
+.content:active {
+    transform: scale(1);
+}
+
+.text-in-image {
+    position: absolute;
+    margin: 0;
+    font-size: 2.3em;
+    font-family: monospace, sans-serif;
+    color: rgba(0,0,0,0);
+    padding: 2.6em 5em 0.5em 1.5em;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-decoration: none;
+}
+
+#scooby {
+    background-image: url(./imagens/SVG/Scooby_01_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby1 {
+    padding: 2.6em 5em 0.5em 1.5em;
+}
+
+#scooby4 {
+    background-image: url(./imagens/SVG/Scooby_04_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby4 {
+    padding: 2.6em 5em 0.5em 1.5em;
+}
+
+#scooby5 {
+    background-image: url(./imagens/SVG/Scooby_05_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scooby6 {
+    background-image: url(./imagens/SVG/Scooby_06_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby6 {
+    padding: 1.42em 3em 0.5em 1.5em;
+}
+
+#scooby7 {
+    background-image: url(./imagens/SVG/Scooby_07_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby7 {
+    padding: 2.6em 5.53em 0.5em 1.5em;
+    margin-top: 43px;
+}
+
+#scooby8 {
+    background-image: url(./imagens/SVG/Scooby_08_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby8 {
+    padding: 2.56em 4.9em 0.5em 1.5em;
+}
+
+#scooby9 {
+    background-image: url(./imagens/SVG/Scooby_09_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scooby10 {
+    background-image: url(./imagens/SVG/Scooby_10_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby10 {
+    padding: 1.44em 5em 0.5em 1.5em;
+    
+}
+
+#scooby11 {
+    background-image: url(./imagens/SVG/Scooby_11_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby11 {
+    padding: 1.44em 5em 0.5em 1.5em;
+}
+
+#scooby12 {
+    background-image: url(./imagens/SVG/Scooby_12_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby12 {
+    padding: 1.44em 5em 0.5em 1.5em;
+}
+
+#scoobygod {
+    background-image: url(./imagens/SVG/Scooby_God_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scooby13 {
+    background-image: url(./imagens/SVG/Scooby_13_svg.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby13 {
+    padding: 1.44em 4em 0.5em 1.5em;
+}
+
+#scooby14 {
+    background-image: url(./imagens/SVG/Scooby_14pronto.svg);
+    width: 400px;
+    height: 400px;
+}
+
+#scoby14 {
+    text-decoration: line-through;
+}
+
+#scooby15 {
+    background-image: url(./imagens/SVG/Scooby_15.svg);
+    width: 400px;
+    height: 400px;
+}
+
+
+.text-in-image:hover {
+    color: rgba(255,255,255,1);
+    background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+    transition: 0.4s ease;
+}
+
+
 @media only screen and (max-width: 768px) {
     .content {
-        width: 350px;
+        
         display: flex;
         transition: 0;
     }
