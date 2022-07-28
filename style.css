@@ -25,11 +25,12 @@ body {
 }
 
 div {
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .container {
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -225,12 +226,17 @@ footer {
     transition: 0.4s ease;
 }
 
+#bug-temp {
+    padding-left: 5px;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .content {
-        
         display: flex;
         transition: 0;
+
     }
     .container {
         display: flex;
