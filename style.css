@@ -239,4 +239,10 @@ footer {
     .content:hover {
         transform: scale(1);
     }
+
+    .text-in-image {
+        transition: 0.4s ease;
+        color: rgba(255,255,255,1);
+        background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+    }
 }
