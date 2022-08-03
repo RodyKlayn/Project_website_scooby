@@ -236,7 +236,10 @@ footer {
     .content {
         display: flex;
         transition: 0;
-
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        transform: scale(0.9);
     }
     .container {
         display: flex;
@@ -250,5 +253,7 @@ footer {
         transition: 0.4s ease;
         color: rgba(255,255,255,1);
         background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+        margin: 0px;
+        transform: scale(1);
     }
 }
