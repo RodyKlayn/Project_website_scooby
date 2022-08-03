@@ -24,11 +24,6 @@ body {
     margin: 0px;
 }
 
-div {
-    padding-top: 30px;
-    padding-bottom: 15px;
-}
-
 .container {
     padding-top: 30px;
     display: flex;
@@ -47,6 +42,14 @@ img {
     display: flex;
     position: relative;
     border-radius: 2rem;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+img {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .text-subline {
