@@ -1,2 +1,2 @@
-const SCOOBY = "Au au.";
+const SCOOBY = "Au au." + " :)";
 console.log(SCOOBY);

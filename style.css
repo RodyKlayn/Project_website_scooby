@@ -227,6 +227,12 @@ footer {
     height: 400px;
 }
 
+#scooby16 {
+    background-image: url(./imagens/SVG/Scooby_16.svg);
+    width: 400px;
+    height: 400px;
+}
+
 
 .text-in-image:hover {
     color: rgba(255,255,255,1);
