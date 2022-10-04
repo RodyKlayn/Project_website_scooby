@@ -233,6 +233,10 @@ footer {
     height: 400px;
 }
 
+#scoby16 {
+    padding-right: 183px;
+}
+
 
 .text-in-image:hover {
     color: rgba(255,255,255,1);
@@ -273,6 +277,17 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+
+    .container {
+        margin-right: 35px;
+    }
+
+    #bug-temp {
+        width: 320px;
+        height: 320px;
+        padding: 0px;
+    }
+
     #scooby {
         width: 320px;
         height: 320px;
@@ -313,6 +328,7 @@ footer {
         padding: 40px;
         padding-top: 10px;
         padding-bottom: 22px;
+        padding-right: 39px;
     }
     
     #scooby7 {
@@ -392,7 +408,7 @@ footer {
     }
     
     #scoby13 {
-        padding: 40px;
+        padding: 39px;
     }
     
     #scooby14 {
