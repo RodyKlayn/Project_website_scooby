@@ -273,10 +273,163 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+    #scooby {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby1 {
+        padding: 60px;
+        padding-top: 30px;
+        padding-bottom: 45px;
+    }
+    
+    #scooby4 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby4 {
+        padding: 40px;
+    }
+    
+    #scooby5 {
+        width: 320px;
+        height: 320px;
+    }
+
+    #scoby5 {
+        padding: 40px;
+        padding-top: 40px;
+        padding-right: 58px;
+    }
+    
+    #scooby6 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby6 {
+        padding: 40px;
+        padding-top: 10px;
+        padding-bottom: 22px;
+    }
+    
+    #scooby7 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby7 {
+        padding: 40px;
+        padding-bottom: 35px;
+        padding-right: 138px;
+        margin-top: 43px;
+    }
+    
+    #scooby8 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby8 {
+        padding: 40px;
+    }
+    
+    #scooby9 {
+        width: 320px;
+        height: 320px;
+    }
+
+    #scoby9 {
+        padding: 40px;
+        padding-right: 57px;
+        padding-top: 77px;
+    }
+    
+    #scooby10 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby10 {
+        padding: 40px;
+        padding-bottom: 18px;
+        padding-top: 15px;
+        
+    }
+    
+    #scooby11 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby11 {
+        padding: 40px;
+    }
+    
+    #scooby12 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby12 {
+        padding: 40px;
+    }
+    
+    #scoobygod {
+        width: 320px;
+        height: 320px;
+    }
+
+    #scobygod {
+        padding: 40px;
+    }
+    
+    #scooby13 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby13 {
+        padding: 40px;
+    }
+    
+    #scooby14 {
+        width: 320px;
+        height: 320px;
+    }
+    
+    #scoby14 {
+        text-decoration: line-through;
+        padding: 50px;
+        padding-bottom: 25px;
+    }
+    
+    #scooby15 {
+        width: 320px;
+        height: 320px;
+    }
+
+    #scoby15 {
+        padding: 50px;
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+    #scooby16 {
+        width: 320px;
+        height: 320px;
+        margin-top: 20px;
+    }
+
+    #scoby16 {
+        padding: 40px;
+    }
+
     .content {
-        transform: scale(0.8);
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     .container {
